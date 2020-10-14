@@ -1,0 +1,29 @@
+{
+  "name": "cct-marketing/html-to-image",
+  "description": "SDK to connect to htmltoimage API",
+  "authors": [
+    {
+      "name": "Declan Keane",
+      "email": "dk@cct-technology.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "type": "library",
+  "require": {
+    "php": "~7.1",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CCT\\Services\\HtmlToImage\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CCT\\Services\\HtmlToImage\\Tests\\": "tests/"
+    }
+  }
+}
