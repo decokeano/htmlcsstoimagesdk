@@ -7,7 +7,6 @@
       "email": "dk@cct-technology.com"
     }
   ],
-  "minimum-stability": "stable",
   "type": "library",
   "require": {
     "php": "~7.1",
